@@ -7,5 +7,5 @@ services:
         network_mode: "host"
         volumes:
             - /root/mail-data/:/data
-        enviroment:
+        environment:
             - HTTPS=ON
